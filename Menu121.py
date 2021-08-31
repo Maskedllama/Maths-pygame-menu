@@ -11,7 +11,7 @@ font = pygame_menu.font.FONT_8BIT
 font1 = pygame_menu.font.FONT_NEVIS
 font2 = pygame_menu.font.FONT_BEBAS
 
-#Make menu Sumes
+#Make menu Sums
 menu3 = pygame_menu.Menu('Sums', 600, 400,
                        theme=pygame_menu.themes.THEME_BLUE)
 
@@ -19,7 +19,7 @@ menu3.add.button('Infinite sums', font_name = font1, font_color = 'green')
 menu3.add.button('Sums with images', font_name = font1, font_color = 'blue')
 menu3.add.button('Sums with audio', font_name = font1,font_color = 'red')
 
-#Make menu Restes
+#Make menu Subtractions
 menu4 = pygame_menu.Menu('Subtraction', 600, 400,
                        theme=pygame_menu.themes.THEME_DEFAULT)
 
@@ -27,7 +27,7 @@ menu4.add.button('Infinite subtractions', font_name = font1, font_color = 'green
 menu4.add.button('Subtractions with images', font_name = font1, font_color = 'blue')
 menu4.add.button('Subtratcions with audio', font_name = font1,font_color = 'red')
 
-#Make menu Multiplicacions
+#Make menu Multiplications
 menu5 = pygame_menu.Menu('Multiplications', 600, 400,
                        theme=pygame_menu.themes.THEME_ORANGE)
 
